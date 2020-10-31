@@ -8,10 +8,10 @@ def initialize(name)
 end
 
 
-def add_student(student, level)
-  roster[level] ||= []
-  roster[level] << student
-end
+# def add_student(student, level)
+  # roster[level] ||= []
+  # roster[level] << student
+# end
 
 def grade(level)
   roster.detect do |x, y|
