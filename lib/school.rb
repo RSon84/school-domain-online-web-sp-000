@@ -18,7 +18,7 @@ end
 def grade(level)
   roster.detect do |x, y|
     if x == level
-      return y 
+      return y
     end
   end
 end
